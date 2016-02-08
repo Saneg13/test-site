@@ -1,0 +1,205 @@
+
+/* font-family: "Gunny Rewritten"; */
+@font-face {
+    font-family: 'Gunny Rewritten';
+    src: url('../fonts/GunnyRewritten/gunnyrewritten-400-normal.woff2') format('woff2'), url('../fonts/GunnyRewritten/gunnyrewritten-400-normal.woff') format('woff'), url('../fonts/GunnyRewritten/gunnyrewritten-400-normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font-family: "YanoneKaffeesatzRegular"; */
+@font-face {
+    font-family: "YanoneKaffeesatzRegular";
+    src: url("/../fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.eot");
+    src: url("/../fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.eot?#iefix")format("embedded-opentype"),
+    url("/../fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.woff") format("woff"),
+    url("/../fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "YanoneKaffeesatzBold"; */
+@font-face {
+    font-family: "YanoneKaffeesatzBold";
+    src: url("/../fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.eot");
+    src: url("/../fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.eot?#iefix")format("embedded-opentype"),
+    url("/../fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.woff") format("woff"),
+    url("/../fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "YanoneKaffeesatzLight"; */
+@font-face {
+    font-family: "YanoneKaffeesatzLight";
+    src: url("/../fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.eot");
+    src: url("/../fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.eot?#iefix")format("embedded-opentype"),
+    url("/../fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.woff") format("woff"),
+    url("/../fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "YanoneKaffeesatzExtraLight"; */
+@font-face {
+    font-family: "YanoneKaffeesatzExtraLight";
+    src: url("/../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.eot");
+    src: url("/../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.eot?#iefix")format("embedded-opentype"),
+    url("/../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.woff") format("woff"),
+    url("/../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*changes in body, h1..h6, a, p*/
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font: normal 12pt Arial,Helvetica,sans-serif;
+    background: #EFEFEF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-rendering: optimizeLegibility;
+    font-family: 'Gunny Rewritten', Arial, Helvetica, sans-serif;
+}
+
+a{ font-size: 100%;}
+
+p{ padding: 2%;}
+
+/*.author*/
+/*{*/
+    /*border-top: 2px solid #000;*/
+/*}*/
+
+/*.content*/
+/*{*/
+    /*border-bottom-right-radius: 10px;*/
+    /*border-bottom-left-radius: 10px;*/
+    /*border-left: 2px solid #000;*/
+    /*border-right: 2px solid #000;*/
+    /*border-top: 2px dashed #000;*/
+    /*border-bottom: 2px solid #000;*/
+/*}*/
+
+/*padding image in post content*/
+.small_img.left{ padding: 2%;}
+
+/*custom logo font*/
+#logo
+{
+    font-family:'Gunny Rewritten', Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    font-size: 400%;
+}
+
+/*work with sidebar*/
+#sidebar
+{
+    padding: 20px 5px;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+    padding: 3px 8px;
+    background: #fff;
+    /*border-top-left-radius: 10px;*/
+    /*border-top-right-radius: 10px;*/
+    border-left: 2px solid #000;
+    /*border-right: 2px solid #000;*/
+    /*border-top: 2px solid #000;*/
+    border-bottom: 2px dashed #000;
+}
+
+.portlet-title
+{
+    text-align: center;
+    text-transform: uppercase; /*uppercase all titles*/
+    font-family:'Gunny Rewritten', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    font-weight: inherit;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+
+.portlet-content
+{
+    font-size:0.9em;
+    margin: 0;
+    padding: 5px 8px;
+    margin-bottom:15px;
+    background:#fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    /*border-top: 2.5px dashed #000;*/
+    border-bottom: 2px solid #000;
+}
+
+.portlet-content ul
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.portlet-content li
+{
+    padding: 2px 0 4px 0px;
+}
+
+/*other*/
+/*-------------------------------------------------------------------
+custom menu
+---------------------------------------------------------------------*/
+#main-nav {
+    float: right;
+    font-size:22px;
+    /*font-family:'YanoneKaffeesatzRegular', Arial, Helvetica, sans-serif;*/
+    font-family:'Gunny Rewritten', Arial, Helvetica, sans-serif; /*changes font in menu elements*/
+    position:relative;
+    top:1px;
+    left:0;
+    margin:0px 0 0 0;
+}
+
+#main-nav li {
+    float: left;
+    padding:0 0 0 10px;
+    list-style-type: none; /* removes markers in menu */
+}
+
+#main-nav li a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #000;
+    padding:0 10px 0 10px;
+}
+
+#main-nav li a:hover, #main-nav li.active a {
+    border-bottom: 1px solid #000;
+}
+
+.post .title
+{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family:'Gunny Rewritten', Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #C9E0ED;
+}
+
+.post .title a
+{
+    color: #000;
+}
